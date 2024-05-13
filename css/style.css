@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    background-image: url(../image/number.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.52);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    height: 60px;
+
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(237, 231, 231);
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #a333d2;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+
+
+.menu-button {
+    display: none;
+}
+
+.intro {
+    background-color: #ffcc00;
+    height: 60vh;
+}
+
+.intro h1 {
+    color: #ffff;
+    text-align: left;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+
+
+.cilindro {
+    display: flex;
+}
+
+.lado_left {
+    background: #fd6500cc;
+    width: 50%;
+    height: 65vh;
+}
+
+.lado_right {
+    background: #2a2a72cc;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+.creative {
+    color: white;
+
+
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 22px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+    text-align: justify;
+    color: #fff;
+}
+
+.lado_right h1 {
+    color: #ffff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;   
+    gap: 10px;    
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+label {
+    display: block;   
+    font-size: 20px;
+    color: #ffff;
+}
+
+input {
+    width: 60%;
+    padding: 8px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    background-color: #fd6500cc;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+/* Cono*/
+.container_cono {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    height: 65vh;
+    background-color: #00b4d8cc;
+}
+
+.box img {
+    width: 50%;
+    height: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Esfera */
+
+.container_esfera {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box_esfera {
+    width: 100%; 
+    height: 60vh;    
+    margin-right: 0 5px; 
+    text-align: center;
+  }
+
+  /* Colores para cada caja */
+.box_esfera:nth-child(1) {
+    background-color: #eae2b7cc;
+  }
+  
+.box_esfera:nth-child(2) {
+    background-color: #e76f51cc;
+  }
+  
+.box_esfera:nth-child(3) {
+    background-color: #fb6f92cc;
+  }
+
+  .box_esfera img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Piramide */
+
+.container_piramide {
+    display: flex;
+    
+  }
+  
+  .box_piramide {
+    flex: 1;
+    height: 65vh;
+    background-color: #00b4d8cc;
+    width: 100%; 
+    height: 60vh;    
+    margin-right: 0 5px; 
+    text-align: center;
+  }
+
+  .box_piramide:nth-child(1) {
+    background-color: #8338eccc;
+  }
+  
+.box_piramide:nth-child(2) {
+    background-color: #ffff;
+  }
+
+  .box_piramide img {
+    width: 70%;
+    height: 90%;
+    display: block;
+    margin: 20px auto;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #3498dbcc;
+    color: #fff;
+    padding: 20px 0;
+    
+  }
+  
+  .container_footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 25vh;
+   
+    
+  }
+  .container_footer p{
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  
+  
